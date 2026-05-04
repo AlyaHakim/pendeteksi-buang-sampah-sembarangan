@@ -27,4 +27,6 @@ Route::prefix('dashboard')
 
         Route::get('/export', [DetectionController::class, 'exportCsv'])
             ->name('export');
+        
+
     });
